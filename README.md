@@ -2,7 +2,7 @@
 
 <p align="center">Welcome to the Python Bootcamp repository! Here you will find a collection of exercises and projects from the 100 Days of Code.</p>
 
-## Contents
+## 🧐 Contents
 
 - 📊 Learn data science
 - 🤖 Automation
