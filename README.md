@@ -1,6 +1,6 @@
 <h1 align="center">🐍 Python Bootcamp</h1>
 
-<p align="center">Welcome to the Python Pro Bootcamp repository! Here you will find a collection of exercises and projects from the 100 Days of Code challenge. Dive into Python and master various domains including data science, automation, web development, games, and applications.</p>
+<p align="center">Welcome to the Python Bootcamp repository! Here you will find a collection of exercises and projects from the 100 Days of Code challenge. Dive into Python and master various domains including data science, automation, web development, games, and applications.</p>
 
 ## Contents
 
@@ -30,4 +30,4 @@ Develop desktop and mobile applications using Python libraries and frameworks ta
 
 ---
 
-Feel free to explore each section for detailed exercises and projects related to the Python Pro Bootcamp. Happy coding!
+Feel free to explore each section for detailed exercises and projects related to the Python Bootcamp. Happy coding!
