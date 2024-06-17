@@ -1,6 +1,6 @@
 <h1 align="center">🐍 Python Bootcamp</h1>
 
-<p align="center">Welcome to the Python Bootcamp repository! Here you will find a collection of exercises and projects from the 100 Days of Code.</p>
+<p align="center">Welcome to my Python Bootcamp repository! Here, I've gathered a collection of exercises and projects from the 100 Days of Code: The Complete Python Bootcamp. This repository is where I commit all exercises related to Python as part of my 100 Days of Code journey.</p>
 
 ## 🧐 Contents
 
