@@ -8,7 +8,7 @@ while keep:
     print()
 
     print("O que voce deseja fazer?")
-    print("Adicionar valores de pilha - 1")
+    print("Criar pilha e seus valores - 1")
     print("Consultar valores de pilha - 2")
     print("Alterar valores de pilha - 3")
     print("Excluir valores de pilha - 4")
@@ -17,16 +17,24 @@ while keep:
 
     #HERE WE ARE ADDING VALUES TO THE STACK - OPTION 1
     if choose == 1:
-        length = int(input("Qual o tamanho da pilha: "))
-        pilha = list(range(0, length))
-        for i in range(len(pilha)):
-            pilha[i] = input(f"Digite o valor da posição {i + 1}: ")
+        print("--- Adicionando na Pilha ---")
+        if pilha:
+            print("A pilha ja foi criada! Recomece o programa caso queira outra pilha.")
+        else:
+            length = int(input("Qual o tamanho da pilha: "))
+            if length >= 51:
+                print("O tamanho maximo da Pilha e 50!")
+            else:
+                pilha = list(range(0, length))
+                for i in range(len(pilha)):
+                    pilha[i] = input(f"Digite o valor da posição {i + 1}: ")
 
 
     #HERE WE ARE CONSULTING THE VALUES FROM THE STACK - OPTION 2
     if choose == 2:
-        for i in range(0, len(pilha)):
-            print(i)
+        print("--- Consulta da Pilha ---")
+        for index, value in enumerate(pilha):  # Use enumerate para obter o índice e o valor
+            print(f"Valor {index + 1}: {value}")
         if not pilha:
             print("A pilha esta vazia!!")
 
