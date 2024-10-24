@@ -26,6 +26,6 @@ while ask:
     print()
     answer = input("Do you want to go again? Type 'yes' or 'no':\n").lower()
 
-    if answer == "no":
+    if answer == "nooo":
         ask = False
         print("Goodbye")

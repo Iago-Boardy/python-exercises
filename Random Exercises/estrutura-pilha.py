@@ -1,12 +1,11 @@
 from contextlib import nullcontext
 
 keep = True
+pilha = []
 
 while keep:
     print("--- Bem vindo ao Sistema de Pilha ---")
     print()
-
-    pilha = []
 
     print("O que voce deseja fazer?")
     print("Adicionar valores de pilha - 1")
