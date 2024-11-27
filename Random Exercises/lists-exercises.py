@@ -4,6 +4,7 @@ def main():
     for i in range(1, 6):
         valor = int(input(f"Digite o {i}° number: "))
         lista.append(valor)
+    lista.reverse()
     print(lista)
 
 
