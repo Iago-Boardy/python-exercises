@@ -1,17 +1,15 @@
-import random
-
+import numpy as np
 
 def main():
-    p = int(input("Type the number of people that are participating: "))
-    people = []
+    frutas = ["maçã", "banana", "uva", "pêra",
+              "manga", "coco", "melancia", "mamão",
+              "laranja", "abacaxi", "kiwi", "ameixa"]
 
-    for i in range(p):
-        people.append(i + 1)
+    salada_frutas = np.random.choice(frutas, 3)
+    print("Salada de frutas surpresa!")
+    input("Aperte enter para saber sua salada de frutas...")
 
-
-    lucky_one = random.choice(people)
-
-    print(f"The lucky person today is the {lucky_one}° one!")
+    print(salada_frutas)
 
 
 if __name__ == "__main__":
