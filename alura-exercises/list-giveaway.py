@@ -1,16 +1,13 @@
 import numpy as np
 
 def main():
-    frutas = ["maçã", "banana", "uva", "pêra",
-              "manga", "coco", "melancia", "mamão",
-              "laranja", "abacaxi", "kiwi", "ameixa"]
+    print("Sistema de Jardinagem")
+    raio = float(input("Qual o raio da area circular: "))
+    pi = np.pi
 
-    salada_frutas = np.random.choice(frutas, 3)
-    print("Salada de frutas surpresa!")
-    input("Aperte enter para saber sua salada de frutas...")
+    area = pi * pow(raio, 2)
+    valor = area * 25.00
 
-    print(salada_frutas)
-
-
+    print(f"O valor final que deve ser pago para uma area de {round(area, 2)}, e de R${round(valor, 2)}.")
 if __name__ == "__main__":
     main()
